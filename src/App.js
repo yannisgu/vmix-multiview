@@ -10,8 +10,9 @@ const inputHeight = 243;
 const titleHeight = 27;
 const gap = 10;
 
+const parser = new xml.XMLParser();
+
 function App() {
-  const parser = new xml.XMLParser();
 
   const [inputs, setInputs] = useState([]);
 
