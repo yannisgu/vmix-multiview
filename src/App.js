@@ -2,8 +2,8 @@ import "./App.css";
 import xml from "fast-xml-parser";
 import { useEffect, useState } from "react";
 
-//const url = "http://127.0.0.1:8088/API/";
-const url = "/sample.xml";
+const url = "http://127.0.0.1:8088/API/";
+//const url = "/sample.xml";
 
 const inputWidth = 432;
 const inputHeight = 243;
